@@ -13,6 +13,13 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    screens: {
+      'sm': {'max': '896px'},
+      'md': {'min': '897px'}
+    },
+    fontFamily: {
+      'use': ["Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif"]
+    }
   },
   plugins: [],
 }

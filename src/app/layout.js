@@ -11,7 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <link rel='icon' href='./favicon.ico' size='any' />
+      <body className='font-use'>{children}</body>
     </html>
   )
 }
